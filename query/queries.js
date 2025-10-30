@@ -2,16 +2,16 @@
 {}
 
 // 2. Mostrar el restaurant_id i name per tots els documents en la col·lecció Restaurants.
-
+{ "restaurant_id": 1, "name": 1 }
 
 // 3. Mostrar el restaurant_id, name, borough i cuisine.
-
+{ "restaurant_id": 1, "name": 1, "borough": 1, "cuisine": 1 }
 
 // 4. Mostrar restaurant_id, name, borough i zip code.
-
+{ "restaurant_id": 1, "name": 1, "address.zipcode": 1 }
 
 // 5. Mostrar tots els restaurants que estan en el Bronx.
-
+{"borough": "Bronx"}
 
 // 6. Mostrar els primers 5 restaurants que estan en el Bronx.
 
